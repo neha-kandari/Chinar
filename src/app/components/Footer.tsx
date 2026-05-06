@@ -47,7 +47,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/#about"
+                  href="#about"
                   className="font-['Poppins',sans-serif] text-[#b0b0b0] text-[13px] sm:text-[14px] hover:text-[#00A54F] transition-colors duration-300 flex items-center gap-2 group"
                 >
                   <ArrowRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -56,7 +56,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/#clients"
+                  href="#testimonials"
                   className="font-['Poppins',sans-serif] text-[#b0b0b0] text-[13px] sm:text-[14px] hover:text-[#00A54F] transition-colors duration-300 flex items-center gap-2 group"
                 >
                   <ArrowRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -88,7 +88,7 @@ export default function Footer() {
             <ul className="space-y-2.5">
               <li>
                 <a
-                  href="/#services"
+                  href="#services"
                   className="font-['Poppins',sans-serif] text-[#b0b0b0] text-[13px] sm:text-[14px] hover:text-[#00A54F] transition-colors duration-300 flex items-center gap-2 group"
                 >
                   <ArrowRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -97,7 +97,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/#services"
+                  href="#services"
                   className="font-['Poppins',sans-serif] text-[#b0b0b0] text-[13px] sm:text-[14px] hover:text-[#00A54F] transition-colors duration-300 flex items-center gap-2 group"
                 >
                   <ArrowRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -106,7 +106,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/#services"
+                  href="#services"
                   className="font-['Poppins',sans-serif] text-[#b0b0b0] text-[13px] sm:text-[14px] hover:text-[#00A54F] transition-colors duration-300 flex items-center gap-2 group"
                 >
                   <ArrowRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -175,9 +175,22 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="font-['Poppins',sans-serif] text-[#888] text-[12px] sm:text-[13px] text-center sm:text-left">
-              © {currentYear} Chinar Roadlines. All rights reserved.
-            </p>
+            <div className="flex flex-col items-center sm:items-start gap-1.5">
+              <p className="font-['Poppins',sans-serif] text-[#888] text-[12px] sm:text-[13px] text-center sm:text-left">
+                © {currentYear} Chinar Roadlines. All rights reserved.
+              </p>
+              <p className="font-['Poppins',sans-serif] text-[#888] text-[12px] sm:text-[13px] text-center sm:text-left">
+                develop by{" "}
+                <a
+                  href="https://www.xpanix.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#00A54F] hover:underline transition-colors duration-300"
+                >
+                  xpanix
+                </a>
+              </p>
+            </div>
             <div className="flex gap-5">
               <a
                 href="#"
