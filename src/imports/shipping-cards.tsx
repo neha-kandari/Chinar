@@ -84,7 +84,7 @@ function FullTruckCard() {
       <div className="absolute capitalize font-['Poppins',sans-serif] font-normal leading-[20px] left-[17px] top-[97px] text-[12px] text-black tracking-[1.4px] w-[280px]">
         <p className="mb-0">Dedicated Vehicle For Faster And Secure Transport.</p>
       </div>
-      <div className="absolute left-[17px] top-[155px]">
+      <a href="tel:9811323625" className="absolute left-[17px] top-[155px] z-20">
         <div className="relative border border-[#00a54f] h-[43px] w-[270px] group-hover:bg-[#00a54f] transition-colors duration-300">
           <p className="absolute capitalize font-['Poppins',sans-serif] font-normal leading-[20px] left-[80px] top-[11px] text-[#00a54f] text-[12px] tracking-[1.4px] whitespace-nowrap group-hover:text-white transition-colors duration-300">
             Enquire Now
@@ -97,7 +97,7 @@ function FullTruckCard() {
             </div>
           </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }
@@ -127,7 +127,7 @@ function BookingAgencyCard() {
       <p className="absolute capitalize font-['Poppins',sans-serif] font-normal leading-[20px] left-[17px] top-[97px] text-[12px] text-black tracking-[1.4px] w-[280px]">
         Partner With Chinar For Reliable Freight Bookings.
       </p>
-      <div className="absolute left-[17px] top-[155px]">
+      <a href="tel:9811323625" className="absolute left-[17px] top-[155px] z-20">
         <div className="relative border border-[#00a54f] h-[43px] w-[270px] group-hover:bg-[#00a54f] transition-colors duration-300">
           <p className="absolute capitalize font-['Poppins',sans-serif] font-normal leading-[20px] left-[80px] top-[11px] text-[#00a54f] text-[12px] tracking-[1.4px] whitespace-nowrap group-hover:text-white transition-colors duration-300">
             Enquire Now
@@ -140,7 +140,7 @@ function BookingAgencyCard() {
             </div>
           </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }
