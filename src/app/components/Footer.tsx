@@ -132,9 +132,14 @@ export default function Footer() {
                   <MapPin className="w-4 h-4 text-[#00A54F]" />
                 </div>
                 <div>
-                  <p className="font-['Poppins',sans-serif] text-[#b0b0b0] text-[13px] sm:text-[14px] leading-relaxed">
+                  <a 
+                    href="https://maps.google.com/?q=BG-338,+BG-339+Sanjay+Gandhi+Transport+Nagar,+Delhi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-['Poppins',sans-serif] text-[#b0b0b0] text-[13px] sm:text-[14px] leading-relaxed hover:text-[#00A54F] transition-colors duration-300 block"
+                  >
                     BG-338, BG-339 Sanjay Gandhi Tpt Nagar, Delhi
-                  </p>
+                  </a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -188,6 +193,13 @@ export default function Footer() {
                   className="text-[#00A54F] hover:underline transition-colors duration-300"
                 >
                   xpanix
+                </a>
+                {" | "}
+                <a
+                  href="tel:8930005190"
+                  className="text-[#00A54F] hover:underline transition-colors duration-300"
+                >
+                  89300 05190
                 </a>
               </p>
             </div>
