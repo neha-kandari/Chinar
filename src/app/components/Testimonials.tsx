@@ -46,7 +46,7 @@ export default function Testimonials() {
   const duplicatedTestimonials = [...testimonials, ...testimonials, ...testimonials];
 
   return (
-    <section className="py-20 sm:py-24 bg-white overflow-hidden">
+    <section id="testimonials" className="py-20 sm:py-24 bg-white overflow-hidden">
       <div className="max-w-[1400px] mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 px-4">
