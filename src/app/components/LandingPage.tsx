@@ -107,10 +107,10 @@ export default function LandingPage() {
         <div className="relative h-full flex items-center justify-center px-4 text-center">
           <div className="max-w-4xl">
             <h1 className="font-['Inter',sans-serif] font-medium text-white text-2xl sm:text-3xl md:text-4xl lg:text-[52px] leading-tight">
-              Connecting Markets
+              Your Goods
             </h1>
             <p className="font-['Inter',sans-serif] font-medium text-white text-2xl sm:text-3xl md:text-4xl lg:text-[52px] leading-tight mt-2">
-              Through <span className="text-[#03e06d]">Smooth Logistics</span>
+              Our <span className="text-[#03e06d]">Wheels</span>
             </p>
           </div>
         </div>
